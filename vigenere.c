@@ -2,7 +2,8 @@
 #include <cs50.h>
 #include <string.h>
 #include <ctype.h>
-
+/*enter key
+*/
 int main(int argc, string argv[]) {
 	if (argc != 2) {
 		printf("Try agayn,pls");
@@ -23,7 +24,7 @@ int main(int argc, string argv[]) {
 		printf("Try agayn,pls");
 		return 1;
 	}
-
+	//coding text
 	for (int i = 0, n = 0; i < strlen(text); i++) {
 		if (isalpha(text[i])) {
 			if (isupper(text[i]))
