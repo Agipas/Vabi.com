@@ -9,7 +9,7 @@ int main(int argc, string argv[]) {          			//check input
 	if (argc != 2) {
 		printf("Try agayn,pls");
 	return 1;
-	}
+	}                                                       // only accept two command line arguments
 		string key = argv[1];
 	unsigned long keyCount = strlen(key);
 	for (int a = 0; a < keyCount; a++) {
